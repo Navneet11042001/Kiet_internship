@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+:root{
+    --themeRed: #e43a47;
+    --gray: #efefef;
+}
+
+button,
+body{
+	font-family: 'Roboto', sans-serif;
+}
+ *{
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+ }
+
+ p{
+     font-size:14px;
+     line-height:26px;
+ }
+
+ .fullcontainer{
+ 	width: 100%;
+ }
+ .fullcontainer h1{
+         color:rgb(12, 105, 20);
+         font-size: 40px;
+ }
+ .fullcontainer ul li{
+           font-size: 20px;
+ }
+
+ .container {
+ 	width: 1150px;
+ 	margin:auto;
+ }
+
+ .sectionTitle{
+     width: 300px;
+     border-bottom: 3px solid var(--themeRed);
+     text-align: center;
+     font-size: 2rem;
+     font-weight:200;
+     margin:0 auto 50px;
+     position: relative;
+     padding: 10px 0;
+     text-transform: uppercase;
+ }
+
+ header{
+ 	width:100%;
+ 	background-color: rgba(0,0,0,0.6);
+ 	position: fixed;
+ 	z-index: 2;
+ }
+ header .container {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ header .container .logo {
+ 	  padding: 15px 0;
+ 	  height: 75px;
+ }
+
+ header .container .logo nav ul li img{
+ 	height: 100%;
+ }
+ header .container .logo nav ul{
+    list-style-type: none;
+}
+ header .container .logo nav ul li{
+     display: inline-block;
+     height: 51px;
+ 	  line-height: 0px;
+ 	  padding: 0 1px;
+ 	  text-decoration:none;
+ 	  text-transform: capitalize;
+ 	  font-size: 30px;
+ 	  color: #fff;
+ }
+
+ header nav ul{
+ 	list-style-type: none;
+ }
+ header nav ul li {
+    display: inline-block;
+ }
+
+ header nav ul li a{
+ 	  display: inline-block;
+ 	  height: 75px;
+ 	  line-height: 75px;
+ 	  padding: 0 15px;
+ 	  text-decoration:none;
+ 	  text-transform: capitalize;
+ 	  font-size: 16px;
+ 	  color: #fff;
+       transition: 0.3s;
+ }
+   header nav ul li a:hover{
+       background-color: var(--themeRed);
+   }
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../banner.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+.banner h5{
+    padding-left: 350px;
+    font-size: 20px;
+    display:inline-block;
+    margin-top: 100;
+}
+.banner h1{
+    padding-left: 250px;
+    padding-right: 280px;
+    display:inline-block;
+    font-size: 2.5rem;
+    color: rgb(76, 199, 27);
+    text-shadow: 0 0 2px #000;
+    width: 100%;
+    line-height:2.5rem;
+}
+.banner p{
+    padding-left: 250px;
+    padding-right: 280px;
+    font-size: 20px;
+}
+.banner p a{
+    color: rgb(41, 196, 54);
+}
+.banner .line img{
+    padding-left: 230px;
+}

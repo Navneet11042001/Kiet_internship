@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+
+:root{
+    --themeRed: #e43a47;
+    --gray: #efefef;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+button,
+body{
+	font-family: 'Roboto', sans-serif;
+}
+ *{
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+ }
+
+ p{
+     font-size:14px;
+     line-height:26px;
+ }
+
+ 
+
+ .container {
+ 	width: 1150px;
+ 	margin:auto;
+ }
+
+ .sectionTitle{
+     width: 300px;
+     border-bottom: 3px solid var(--themeRed);
+     text-align: center;
+     font-size: 2rem;
+     font-weight:200;
+     margin:0 auto 50px;
+     position: relative;
+     padding: 10px 0;
+     text-transform: uppercase;
+ }
+
+ header{
+ 	width:100%;
+ 	background-color: rgba(0,0,0,0.6);
+ 	position: fixed;
+ 	z-index: 2;
+ }
+ header .container {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ header .container .logo {
+ 	  padding: 15px 0;
+ 	  height: 75px;
+ }
+
+ header .container .logo nav ul li img{
+ 	height: 100%;
+ }
+ header .container .logo nav ul{
+    list-style-type: none;
+}
+ header .container .logo nav ul li{
+     display: inline-block;
+     height: 51px;
+ 	  line-height: 0px;
+ 	  padding: 0 1px;
+ 	  text-decoration:none;
+ 	  text-transform: capitalize;
+ 	  font-size: 30px;
+ 	  color: #fff;
+ }
+
+ header nav ul{
+ 	list-style-type: none;
+ }
+ header nav ul li {
+    display: inline-block;
+ }
+
+ header nav ul li a{
+ 	  display: inline-block;
+ 	  height: 75px;
+ 	  line-height: 75px;
+ 	  padding: 0 15px;
+ 	  text-decoration:none;
+ 	  text-transform: capitalize;
+ 	  font-size: 16px;
+ 	  color: #fff;
+       transition: 0.3s;
+ }
+   header nav ul li a:hover{
+       background-color: var(--themeRed);
+   }
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+   
+}
+.banner h2{
+         padding-left: 6px;
+         font-size: 20px;
+}
+.banner h1{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    display: inline-block;
+    color: #248f2d;
+}
+.banner h3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#content{
+    display:inline-block;
+    background-color: #faf3f3;
+    padding: 5px 10px;
+    border: 1px solid rgb(77, 73, 73);
+    border-radius: 3px;
+    margin-top: 150px;
+    margin-left: 330px;
+    margin-right: 400px;
+}
+
+.tab img{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 700px;
+    height: 100%;
+}
+.tab .tel{
+    margin-top: 15px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+.tab .tel th{
+    text-align: left;
+    line-height: 3rem;
+    color: #248f2d;
+    border-bottom: 1px solid #E1E1E1;
+}
+.tab .tel td{
+    border-bottom: 1px solid #E1E1E1;
+}
+.tab p{
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+.tab button{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    color: #E1E1E1;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #248f2d;
+    border-color: #248f2d;
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
